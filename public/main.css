@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    height: 50px;
+}
+
+.subM {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    font-size:x-large;
+    padding:5px;
+}
+.link {
+    text-decoration: none;
+    color:white;
+}
