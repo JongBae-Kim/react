@@ -10,6 +10,7 @@ import Product from './pages/Product';
 import Business from './pages/Business';
 import Main from './pages/Main';
 import Manu from './pages/Menu';
+import Footer from './pages/Footer';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
           <Route path="/tech" element={<Tech/>}></Route>
           <Route path="/business" element={<Business/>}></Route>
         </Routes>
+        <Footer/>
     </div>
   );
 }
